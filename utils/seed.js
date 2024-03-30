@@ -7,7 +7,7 @@ const users = [
   {
     username: 'Juan234',
     email: 'juan@juan2345',
-    thought: [],
+    thought: 'Lets try this!',
   },
 ];
 
