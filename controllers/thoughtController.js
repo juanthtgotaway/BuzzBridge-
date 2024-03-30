@@ -57,7 +57,7 @@ const thoughtController = {
             );
 
             if (!thought) {
-                return res.status(404).json({ message: "No thought with this id!" });
+                return res.status(404).json({ message: 'No thought with this id!' });
             }
 
             return res.status(200).json(thought);
@@ -75,11 +75,11 @@ const thoughtController = {
             });
 
             if (!thought) {
-                return res.status(404).json({ message: "No thought with that ID" });
+                return res.status(404).json({ message: 'No thought with that ID' });
             }
 
             return res.status(200).json({
-                message: "Thought & associated reactions successfully deleted",
+                message: 'Thought & associated reactions successfully deleted',
             });
         } catch (err) {
             console.log(err);
@@ -96,7 +96,7 @@ const thoughtController = {
             );
 
             if (!reaction) {
-                return res.status(404).json({ message: "No thought with that ID" });
+                return res.status(404).json({ message: 'No thought with that ID' });
             }
 
             return res.status(200).json(reaction);
@@ -117,7 +117,7 @@ const thoughtController = {
             if (!reaction) {
                 return res
                     .status(404)
-                    .json({ message: "Check thought and reaction ID" });
+                    .json({ message: 'Check thought and reaction ID' });
             }
 
             return res.status(200).json(reaction);
