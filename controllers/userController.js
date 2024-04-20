@@ -8,7 +8,7 @@ const userController = {
     },
 
     getUser(req, res) {
-        User.findById(res.params.userId)
+        User.findOne({ _id: req.params.userId })
             .then(userData => res.json(userData))
             .catch(err => res.status(500).json(err));
     },
