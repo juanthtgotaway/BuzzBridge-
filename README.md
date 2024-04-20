@@ -1,9 +1,13 @@
 # BuzzBridge-
 ![Github license](https://shields.io/badge/license-MIT-orange)
 
+[Video Deployment](https://drive.google.com/file/d/10wVvkv27RnOJ7-2EXIS2yTmxK8He9OGt/view?usp=drive_link)
+
+![alt text](./assets/Get%20All.png)
 
 ## Description
-
+The reason for this project was to make a hypothetical backend for a social media platform. 
+Along the way while working on this project the most important take away was making sure I was properly making sure my controllers worked and how my schemas are being set up!
 
 ## Table of Contents
 -[Descriptions](#Descriptions)
@@ -14,7 +18,7 @@
 -[License](#License)
 -[Questions](##Questions)
 
-
+![alt text](./assets/addthought.png)
 
 ## Installation
 In order to install this project you will have to clone the repository: 
@@ -24,12 +28,12 @@ In order to install this project you will have to clone the repository:
             enter following: git@github.com:juanthtgotaway/BuzzBridge-.git
     4. Press enter to create your local clone
 
-
+![alt text](./assets/Userbyid.png)
 
 ## Usage
+Backend for a social media platform!
 
 ## Credits
-
 
 ## Tests
 N/A
